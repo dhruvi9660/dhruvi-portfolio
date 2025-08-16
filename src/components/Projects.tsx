@@ -104,7 +104,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div 
               key={index}
-              className="card-project animate-fade-up"
+              className="card-project group animate-fade-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               {/* Project Header */}

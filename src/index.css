@@ -148,7 +148,7 @@
   }
   
   .card-project {
-    @apply group relative overflow-hidden rounded-xl bg-card shadow-[var(--shadow-card)];
+    @apply relative overflow-hidden rounded-xl bg-card shadow-[var(--shadow-card)];
     @apply transition-all duration-300 hover:shadow-[var(--shadow-navy)] hover:scale-[1.03];
   }
 
