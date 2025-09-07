@@ -4,10 +4,10 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/dhruvi-portfolio/',  // needed for GitHub Pages
+  base: '/dhruvi-portfolio/',  // 👈 matches your repo name
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // needed for @ imports
+      '@': path.resolve(__dirname, './src'),
     },
   },
 })
